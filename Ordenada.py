@@ -4,7 +4,7 @@ def ordenar_fila(matriz, fila):
         print("La fila especificada está fuera de los límites de la matriz.")
         return
 
-    # Aplicamos el algoritmo de ordenación de burbuja a la fila especificada
+    # Aplicamos el algoritmo de ordenación de Bubble Sort a la fila especificada
     for i in range(len(matriz[fila])-1):
         for j in range(len(matriz[fila])-1-i):
             if matriz[fila][j] > matriz[fila][j+1]:
